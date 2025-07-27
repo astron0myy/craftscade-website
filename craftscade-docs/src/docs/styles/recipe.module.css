@@ -1,0 +1,28 @@
+.recipe_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.recipe_container {
+	margin-bottom: 20px;
+	padding: 12px;
+	width: 160px;
+}
+
+.recipe_header {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.recipe_item {
+	background-color: #8b8b8b;
+	border: 2px solid;
+	border-color: #373737 #fff #fff #373737;
+	image-rendering: pixelated;
+	width: 36px;
+	height: 36px;
+	float: left;
+}
